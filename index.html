@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дрогичинский край</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="top-menu">
+		<a class="navbar-logo"  href="index.html"><img class="navbar-img" src="img/drogichin_geraldika-by.png"><h1 class="navbar-text">Дрогичинский край</h1></a>
+		<ul class="menu-main">
+			<li><a class="active" href="index.html">Главная</a></li>
+			<li><a class="notactive" href="history.html">История</a></li>
+			<li><a class="notactive" href="Notablepeople.html">Выдающиеся люди</a></li>
+			<li><a class="notactive" href="memorplaces.html">Памятные места</a></li>
+			<li><a class="notactive" href="museums.html">Музеи</a></li>
+			<li><a class="notactive" href="interesting.html">Это интересно</a></li>
+		</ul>
+	</nav>
+	<header>
+		<img class="head-img" src="img/background.jpg">	
+		<div class="head-div">
+			<p class="head-p">Дрогичинский район - один из живописных и своеобразных уголков Брестского Полесья, край богатой истории и культуры, трудолюбивых, добрых и щедрых людей.</p>
+		</div>	
+	</header>
+	<section>
+		<div class="section-div-img">
+			<img class="section-img" src="img/sm_full.aspx">
+		</div>
+		<div class="section-div">
+			<p class="section-p">
+				Паміж Ясельдай і Днепрабугам
+				<br>Ёсць зямля, што так радуе нас,
+				<br>Над якою буслы круг за кругам
+				<br>З асалодаю бавяць свой час.
+				<br>Ходзіць слава далёка, шырока
+				<br>Пра драгічынскі нораў і лад,
+				<br>Дык кружляйце, буслы, між аблокаў,
+				<br>Над зямлёю легенд і балад.
+				<br><br>Мікола Трафімчук
+			</p>
+		</div>
+	</section>
+	<div class="text">
+		<p class="text-p">В составе района 135 населённых пунктов. Административно район делится на 12 сельских Советов. Город Дрогичин - районный центр. В районе 14 агрогородков: Детковичи, Радостово, Вулька, Головчицы, Липники, Новая Попина, Вулька Радовецкая, Закозель, Именин, Бездеж, Хомск, Брашевичи, Осовцы, Антополь.
+		Население района по состоянию на 1 января 2018 г. составляет 36 434 человека, из которых 16 258 человек проживает в городе Дрогичине.</p>
+	</div>
+	<div class="gallery">
+	<div class="slideshow-container">
+
+	  <div class="mySlides fade">
+	    <img src="img/02.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/03.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/04.webp" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/5.webp" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/6.webp" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/7.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/8.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/17.webp" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="img/11.webp" style="width:100%">
+	  </div>
+	</div>
+	<br>
+	</div>
+	<script type="text/javascript">
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+    		var i;
+    		var slides = document.getElementsByClassName("mySlides");
+    		for (i = 0; i < slides.length; i++) {
+        		slides[i].style.display = "none";
+    		}
+    		slideIndex++;
+    		if (slideIndex > slides.length) {slideIndex = 1}
+    		slides[slideIndex-1].style.display = "block";
+    		setTimeout(showSlides, 2000);
+			}
+	</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+.his {
+  display: flex;
+  margin:0 5% 0 18%;
+  width:90%;
+  margin-bottom: 3%;
+}
+
+.his-img {
+  width: 35%;
+}
+
+.his-img4 {
+  width: 20%;
+}
+
+.his-img5 {
+  width: 20%;
+}
+
+.his-img6 {
+  width: 15%;
+}
+
+.his-img7 {
+  width: 19%;
+}
+
+.his-img11 {
+  width: 18%;
+}
+
+
+.his-titletext {
+  display: block;
+  margin-left: 4%;
+  width: 40%;
+  font-family: 'Merriweather', serif;
+}
+
+.his-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+a.buttonns {
+   width: 80%;
+}
+
+.vozr {width: 80%;
+margin-left: 10%;}
+.vozr-h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.vozr-h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.hist1-title {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.hist1-text {
+  font-family: 'Merriweather', serif;
+  width: 64%;
+  margin-left: 18%;
+  text-align: center;
+}
+.hist1-img1-div {
+  width: 100%;
+}
+.hist1-img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 56%;
+}
+.hist-gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 56%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+.hist2-strel {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+.hist2-imgtriple {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+.hist2-imgtripletwo {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+.hist2-img1 {
+  height: 160px;
+  padding-left: 3%;
+}
+.hist2-img2 {
+  width: 35%
+}
+.avd_div{margin:0px;padding:0;text-align:center;display:block;}
+ .bucn_2_s{text-decoration:none;outline:none;display:inline-block;padding:12px 40px;margin:10px 20px;font-family:'Montserrat', sans-serif;font-size:24px;font-weight:300;color:#fff;transition:.5s;-webkit-border-radius:30px;-moz-border-radius:30px;-o-border-radius:30px;border-radius:30px;background-position:100% 0;background-size:200% 200%;text-shadow:0 1px 1px #555;-webkit-box-shadow:0 0 2px #333;-moz-box-shadow:0 0 2px #333;-o-box-shadow:0 0 2px #333;box-shadow:0 0 2px #333;background-color:#002878;background-image:linear-gradient(45deg, #002878 0%, #33d9de 50%, #002878 100%);background-image:-o-linear-gradient(45deg, #002878 0%, #33d9de 50%, #002878 100%);background-image:-moz-linear-gradient(45deg, #002878 0%, #33d9de 50%, #002878 100%);background-image:-webkit-linear-gradient(45deg, #002878 0%, #33d9de 50%, #002878 100%);background-image:-ms-linear-gradient(45deg, #002878 0%, #33d9de 50%, #002878 100%);}
+ .bucn_2_s:hover{-webkit-box-shadow:0 0 4px #333;-moz-box-shadow:0 0 4px #333;-o-box-shadow:0 0 4px #333;box-shadow:0 0 4px #333;background-position:0 0;}
+ .bucn_2_s:hover,.bucn_2_s:active,.bucn_2_s:focus{color:#fff;text-shadow:0 1px 2px #333;}
+ *::before, *::after{box-sizing:border-box;}
+
+.mySlides-fade { height: 1%; }
+
+@media (max-width: 1102px) {
+.his-img6 {
+  width: 20%;
+}
+.his-img7 {
+  width: 20%;
+}
+}
+@media (max-width: 952px) {
+.his-titletext {
+  width: 55%;
+}
+}
+@media (max-width: 940px) {
+  .his {
+    width:90%;
+    margin:0 25% 0 16%;
+}
+}
+@media (max-width: 851px) {
+.his {
+  display: flex;
+  margin-left: 11%;
+  width:90%;
+  margin-bottom: 3%;
+}
+}
+@media (max-width: 840px) {
+.his {
+  margin-left: 11%;
+  width:100%;
+}
+@media (max-width: 810px) {
+.his {
+  margin-left: 5%;
+}
+}
+@media (max-width: 775px) {
+.his {
+  margin-left: 8%;
+  width:100%;
+}}
+@media (max-width: 755px) {
+.his {
+  display: block;
+  width:100%;
+  margin:0 25% 0 20%;
+}
+.his-img {
+  margin:0 25% 0 5%;
+  width: 40%;
+}
+.his-img4 {
+  margin:0 25% 0 18%;
+}
+.his-img5 {
+  margin:0 25% 0 18%;
+}
+.his-img6 {
+  margin:0 25% 0 18%;
+}
+.his-img7 {
+  margin:0 25% 0 18%;
+}
+.his-img8 {
+  margin:0 25% 0 9%;
+}
+.his-img11 {
+  width: 30%;
+  margin-left: 10%;
+  text-align: center;
+}
+.his-titletext {
+  margin:0 25% 0 0%;
+}
+.his-text {
+  text-align: center;
+}
+
+
+a.buttonns {
+   font-size: 8px;
+}
+}
+
+@media (max-width: 738px) {
+.his-title {
+  text-align: center;
+}}
+@media (max-width: 700px) {
+.his-img {
+  margin:0 25% 0 10%;
+}
+
+.his-titletext {
+  width: 60%;
+}
+
+.his-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+}
+@media (max-width: 546px) {
+.his {
+  display: block;
+  margin:0 25% 0 25%;
+  width:90%;
+  margin-bottom: 3%;
+}
+.his-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.his-titletext {
+  display: block;
+  margin-left: 4%;
+  width: 44%;
+  font-family: 'Merriweather', serif;
+}
+.his-title {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.his-text {
+  text-align: center;
+}
+.hist2-imgtriple {
+  display: block;
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hist2-imgtripletwo {
+  display: block;
+  width: 100%; 
+  margin-left: 32%;
+}
+.hist2-img1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hist2-imgtwo {
+  margin-left: 30%;
+}
+.hist2-imgtwoone {
+  margin-left: 6%;
+}
+}
+@media (max-width: 529px) {
+.his-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.his-title {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 10px;
+}
+.his-text {
+  text-align: center;
+  font-size: 8px;
+}
+
+.vozr-h1 {
+  font-size: 10px;
+}
+.vozr-h2 {
+  font-size: 8px;  
+}
+}
+
+@media (max-width: 500px) {
+  .hist2-imgtriple {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 370px) {
+  .hist2-imgtriple {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 270px) {
+  .hist2-imgtriple {
+    margin-left: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
