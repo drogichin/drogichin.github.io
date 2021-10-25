@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Военно-исторический музей им. Д.К. Удовикова</title>
+	<link rel="stylesheet" type="text/css" href="historystyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="top-menu">
+		<a class="navbar-logo"  href="index.html"><img class="navbar-img" src="img/drogichin_geraldika-by.png"><h1 class="navbar-text">Дрогичинский край</h1></a>
+		<ul class="menu-main">
+			<li><a class="notactive" href="index.html">Главная</a></li>
+			<li><a class="notactive" href="history.html">История</a></li>
+			<li><a class="notactive" href="Notablepeople.html">Выдающиеся люди</a></li>
+			<li><a class="notactive" href="memorplaces.html">Памятные места</a></li>
+			<li><a class="active" href="museums.html">Музеи</a></li>
+			<li><a class="notactive" href="interesting.html">Это интересно</a></li>
+		</ul>
+	</nav>
+	<div class="hist1-titletext">
+		<h1 class="hist1-title">Военно-исторический музей им. Д.К. Удовикова</h1>
+	</div>
+	<div class="hist1-img1-div">
+		<img class="hist1-img1" src="img/mus1-1.jpg">
+	</div>
+	<div class="avd_div"><a href="https://goo.gl/maps/bxzizwMsiRT2" class="bucn_2_s">Показать на карте</a></div>
+	<div class="hist1-titletext">
+		<h4 class="hist1-text">Военно-исторический музей имени Д.К. Удовикова открыл свои двери для посетителей 25 августа 1994 г. в городе Дрогичине. Его летопись создавалась благодаря участию разных людей – от ветеранов Великой Отечественной войны до молодых энтузиастов. Объединяла же их всех память и любовь к своему краю.</br></br>Ремонт здания, сбор экспонатов и создание новой экспозиции ветераны полностью осуществили своими силами.</br></br>В декабре 1995 г. музею присвоено почётное звание "народный". А 17 июля 1998 г. перед зданием музея был открыт памятный знак "Партизанская слава", на гранитных плитах которого нанесены названия партизанских отрядов, действовавших в годы Великой Отечественной войны на территории Дрогичинского и Ивановского районов, и имена их командного состава. В декабре 2000 г. музею было присвоено имя Дмитрия Карповича Удовикова.</br></br>На настоящий момент, не смотря на небольшой штат специалистов — 3 человека, военно-исторический музей им. Д.К. Удовикова играет важную роль в культурно-просветительской деятельности района.</br></br>В основном фонд музея составляют фотоснимки, документы, воспоминания и письма партизан-ветеранов. В коллекции музея есть личные вещи руководителей партизанского движения, образцы оружия времён Великой Отечественной войны.</h4>
+	</div>
+	<div class="hist-gallery">
+	<div class="slideshow-container">
+	  	<div class="mySlides fade">
+	    	<img src="img/mus1-2.jpg" style="width: 100%; ">
+	  	</div>
+	  	<div class="mySlides fade">
+	    	<img src="img/mus1-3.jpg" style="width: 100%; ">
+	  	</div>
+	</div>
+	</div>
+	<div class="avd_div"><a href="mus2.html" class="bucn_2_s">Следующее&#8594;</a></div>
+	<script type="text/javascript">
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+    		var i;
+    		var slides = document.getElementsByClassName("mySlides");
+    		for (i = 0; i < slides.length; i++) {
+        		slides[i].style.display = "none";
+    		}
+    		slideIndex++;
+    		if (slideIndex > slides.length) {slideIndex = 1}
+    		slides[slideIndex-1].style.display = "block";
+    		setTimeout(showSlides, 2000);
+			}
+	</script>
+</body>
+</html>
