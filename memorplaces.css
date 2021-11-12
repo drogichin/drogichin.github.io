@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
 .his {
   display: flex;
   margin:0 5% 0 10%;
@@ -34,7 +35,7 @@
   display: block;
   margin-left: 4%;
   width: 40%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .his-title {
@@ -52,7 +53,7 @@ margin-left: 10%;}
 }
 .vozr-h2 {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 @media (max-width: 1102px) {
 .his-img6 {
@@ -172,7 +173,7 @@ a.buttonns {
   display: block;
   margin-left: 4%;
   width: 44%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .his-title {
   text-align: center;

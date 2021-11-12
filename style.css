@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
 body {
   margin: 0px;
 }
@@ -109,7 +111,7 @@ section {
 
 .text-p {
   color: #272727;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .gallery {
@@ -138,7 +140,7 @@ section {
   display: block;
   margin-left: 4%;
   width: 38%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .ntl-title {
@@ -374,7 +376,7 @@ section {
   display: block;
   margin-left: 4%;
   width: 44%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .ntl-title {
   text-align: center;
