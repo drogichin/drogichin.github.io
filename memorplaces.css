@@ -10,6 +10,16 @@
   width: 40%;
 }
 
+.hiss-img {
+  width: 48%;
+  height: 30%;
+}
+
+.memor-h1gl {
+  margin-top: 0;
+  margin-bottom: 0; 
+ }
+
 .his-img4 {
   width: 20%;
 }
@@ -62,6 +72,9 @@ margin-left: 10%;}
 .his-img7 {
   width: 20%;
 }
+.his-text {
+  font-size: 0.9em;
+}
 }
 @media (max-width: 952px) {
 .his-titletext {
@@ -71,32 +84,23 @@ margin-left: 10%;}
 @media (max-width: 940px) {
   .his {
     width:90%;
-    margin:0 25% 0 10%;
+    margin:0 5% 0 5%;
 }
 }
 @media (max-width: 851px) {
 .his {
   display: flex;
-  margin-left: 11%;
+  margin-left: 4%;
   width:90%;
   margin-bottom: 3%;
 }
 }
 @media (max-width: 840px) {
 .his {
-  margin-left: 2%;
+  margin-left: 0;
   width:100%;
 }
-@media (max-width: 810px) {
-.his {
-  margin-left: 5%;
 }
-}
-@media (max-width: 775px) {
-.his {
-  margin-left: 1%;
-  width:100%;
-}}
 @media (max-width: 755px) {
 .his {
   display: block;
@@ -105,6 +109,10 @@ margin-left: 10%;}
 }
 .his-img {
   margin:0 25% 0 5%;
+  width: 40%;
+}
+.hiss-img {
+  margin:0 1% 0 10%;
   width: 40%;
 }
 .his-img4 {
@@ -149,6 +157,10 @@ a.buttonns {
   margin:0 25% 0 10%;
 }
 
+.hiss-img {
+  margin:0 25% 0 10%;
+}
+
 .his-titletext {
   width: 60%;
 }
@@ -165,6 +177,11 @@ a.buttonns {
   margin-bottom: 3%;
 }
 .his-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hiss-img {
   margin: 0 auto;
   width: 50%;
 }
@@ -186,6 +203,11 @@ a.buttonns {
 
 @media (max-width: 529px) {
 .his-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hiss-img {
   margin: 0 auto;
   width: 50%;
 }
