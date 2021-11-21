@@ -41,6 +41,25 @@ body {
 	font-family: 'Shippori Antique', sans-serif;
 }
 
+.back {
+	margin:0 0% 0 20%;
+
+}
+
+.back-a {
+	
+	text-decoration: none;
+
+}
+
+.back-h1 {
+	padding-left: 4%;
+	color: #595959;
+	width: 30%;
+	border: 3px solid #991A1A;
+	border-radius: 20px;
+}
+
 @media (max-width: 1148px) {
 .url {
 	width: 45%;
@@ -74,7 +93,6 @@ body {
 	text-align: center;
 }
 }
-}
 
 @media (max-width: 742px) {
 .url {
@@ -85,13 +103,9 @@ body {
 }
 }
 
-@media (max-width: 514px) {
-.url {
-	width: 80%;
-	margin-left: 2%; 
-}	
-.img-public {
-	width: 37%
+@media (max-width: 643px) {
+.back-h1 {
+	font-size: 19px;
 }
 }
 
@@ -99,7 +113,6 @@ body {
 .url {
 	width: 80%;
 	margin-left: 2%; 
-	text-align: center;
 }	
 .img-public {
 	width: 37%
