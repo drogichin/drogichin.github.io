@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Shippori+Antique&display=swap');
+
+body {
+	margin: 0;
+	background: linear-gradient(69deg, #EECFBA, #C5DDE8);
+}
+
+.center {
+	display: flex;
+	width: 80%;
+	margin:0 0% 0 20%;
+}
+
+.url {
+	width: 40%;
+}
+
+.vkinst {
+	display: flex;
+}
+
+.img-public {
+	width: 27%
+}
+
+.a-public {
+	text-decoration: none;
+	color: #4C4C4C; 
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+.contact-info {
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+.info {
+	width: 80%;
+	color: #656565; 
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+@media (max-width: 1148px) {
+.url {
+	width: 45%;
+}
+}
+@media (max-width: 1048px) {
+.url {
+	width: 50%;
+}
+.img-public {
+	width: 30%
+}
+}
+
+@media (max-width: 833px) {
+.center {
+	display: block; 
+	width: 80%;
+	margin:0 0% 0 20%;
+}	
+.url {
+	width: 70%;
+	margin-left: 5%; 
+	text-align: center;
+}
+.img-public {
+	width: 30%
+}
+.info {
+	width: 80%;
+	text-align: center;
+}
+}
+}
+
+@media (max-width: 742px) {
+.url {
+	width: 50%;
+}
+.img-public {
+	width: 35%
+}
+}
+
+@media (max-width: 514px) {
+.url {
+	width: 80%;
+	margin-left: 2%; 
+}	
+.img-public {
+	width: 37%
+}
+}
+
+@media (max-width: 514px) {
+.url {
+	width: 80%;
+	margin-left: 2%; 
+	text-align: center;
+}	
+.img-public {
+	width: 37%
+}
+}
+
+@media (max-width: 428px) {
+.url {
+	width: 90%;
+	margin-left: 0.5%; 
+}	
+.img-public {
+	width: 38.5%
+}
+}
+
+@media (max-width: 358px) {
+.url {
+	width: 100%;
+	margin-left: 0%; 
+}	
+.img-public {
+	width: 40%
+}
+}
