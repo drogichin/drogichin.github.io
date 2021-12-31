@@ -218,6 +218,9 @@ margin-left: 10%;}
   margin-left: 1%;
   width: 22%
 }
+.yoursite {
+  margin-left: auto;
+}
 @media (max-width: 1102px) {
 .his-img7 {
   width: 35%;

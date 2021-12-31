@@ -24,11 +24,12 @@ div {display: block;}
 }
 .navbar-img {
   width: 14%; 
-  height: auto;
+  height: 14%;
 }
 .navbar-text { margin-left: 5%; color: #2D7CC7; font-family: 'Roboto', sans-serif;
 }
 .menu-main {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -190,10 +191,8 @@ footer {
 
 .footer {
   margin: 0;
-  margin-left: 2%;
-  padding-top: 0.25%;
-  padding-bottom: 0.25%;
   color: #F3F3F3;
+  text-decoration: none;
 }
 
 .footer-a {
@@ -215,7 +214,7 @@ footer {
   color: #F3F3F3;
 }
 
-@media (max-width: 9000px) {
+@media screen and (max-width: 9000px) {
   .menu-main {
     float: right;
     margin-top: 0.4%;
@@ -228,24 +227,20 @@ footer {
     font-family: 'Roboto', sans-serif;
   }
 }
-@media (max-width: 1517px) {
+@media screen and (max-width: 1517px) {
 .menu-main {
   margin-left: 0%;
 }
 }
-@media (min-width: 1392px) {
+@media screen and (max-width: 1392px) {
 
 }
-@media (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
 .top-menu {display: block;}
 .navbar-logo {margin:0 auto; width: 30%;}
-.menu-main {
-  float: none;
-  text-align: center;
-}
 .navbar-logo {width: 38%;}
 }
-@media (max-width: 969px) {
+@media screen and (max-width: 969px) {
 .navbar-logo {width: 45%;}
 .navbar-img {  
   height: 8%;  
@@ -253,11 +248,12 @@ footer {
 }
 .head-p {font-size: 30px;}
 }
-@media (max-width: 952px) {
+@media screen and (max-width: 952px) {
 .ntl-titletext {
   width: 55%;
 }
-@media (max-width: 940px) {
+}
+@media screen and (max-width: 940px) {
   .section-div-img {
     width: 60%;
     margin: 0 auto;
@@ -274,7 +270,7 @@ footer {
     font-family: 'Roboto', sans-serif;   
   }
 }
-@media (max-width: 919px) {
+@media screen and (max-width: 919px) {
   .section-p {
     font-size: 25px;
     text-align: left;   
@@ -283,7 +279,7 @@ footer {
     margin-left: 2%;
   }
 }
-@media (max-width: 851px) {
+@media screen and (max-width: 851px) {
 .navbar-logo {width: 45%;}
 .ntl {
   display: flex;
@@ -291,30 +287,33 @@ footer {
   width:90%;
   margin-bottom: 3%;
 }
+.menu-main {
+  display: block;
+}  
 }
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
 .ntl {
   width:80%;
 }
 }
-@media (max-width: 818px) {
+@media screen and (max-width: 818px) {
 .head-p {font-size: 29px;}}
-@media (max-width: 807px) {
+@media screen and (max-width: 807px) {
 .head-p {font-size: 29px;}}
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
 .navbar-logo {width: 45%;}
 a.buttonns {
    font-size: 8px;
 }}
 
-@media (max-width: 725px) {
+@media screen and (max-width: 725px) {
 .ntl {
   width:85%;
   margin-left: 9%;
 }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
 .ntl-img {
   width: 26%;
 }
@@ -327,10 +326,11 @@ a.buttonns {
   font-family: 'Ubuntu', sans-serif;
 }
 }
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
 .section-img {
     width: 100%;
 }
+
 .section-p {
   font-size: 18px;
   text-align: center;
@@ -345,10 +345,10 @@ section {
   width: 100%;
 }
 }
-@media (max-width: 673px) {
+@media screen and (max-width: 673px) {
 .navbar-logo {width: 50%;}
 }
-@media (max-width: 660px) {
+@media screen and (max-width: 660px) {
 .section-img {
     width: 100%;
   }  
@@ -358,6 +358,7 @@ section {
 .head-p {font-size: 25px;}
 .navbar-logo {width: 45%;}
 .menu-main {
+  display: block;
   float: none;
   padding-top: 20px;
 }
@@ -368,30 +369,33 @@ section {
 .menu-main a {padding: 0 10px;}
 .menu-main a:before {transform: rotate(45deg) translateX(-6px);}
 }
-@media (max-width: 633px) {
+@media screen and (max-width: 633px) {
 .navbar-logo {width: 55%;}
 }
-@media (max-width: 615px) {
+@media screen and (max-width: 615px) {
   
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 .menu-main li {display: block;}
 .navbar-logo {width: 60%;}
 }
-@media (max-width: 572px) {
+@media screen and (max-width: 572px) {
 .head-p {font-size: 24px;}
+.menu-main {
+  display: block;
 }
-@media (max-width: 550px) {
+}
+@media screen and (max-width: 550px) {
 .head-p {font-size: 15px;}
 section {
     display: block;
     margin: 0 auto;    
   }
 }
-@media (max-width: 549px) {
+@media screen and (max-width: 549px) {
 .head-p {font-size: 20px;}
 }
-@media (max-width: 570px) {
+@media screen and (max-width: 570px) {
 .head-p {font-size: 15px;}
 .ntl {
   display: block;
@@ -420,47 +424,47 @@ section {
 
 }
 
-@media (max-width: 525px) {
+@media screen and (max-width: 525px) {
 
 }
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
 .navbar-logo {width: 80%;}
 }
 
-@media (max-width: 471px) {
+@media screen and (max-width: 471px) {
 .navbar-logo {width: 65%;}
 }
 
-@media (max-width: 443px) {
+@media screen and (max-width: 443px) {
 .navbar-logo {width: 70%;}
 .section-p {font-size: 15px;}
 }
 
-@media (max-width: 413px) {
+@media screen and (max-width: 413px) {
 .navbar-logo {width: 80%;}
 }
 
-@media (max-width: 363px) {
+@media screen and (max-width: 363px) {
 .navbar-logo {width: 85%;}
 }
 
-@media (max-width: 343px) {
+@media screen and (max-width: 343px) {
 .navbar-logo {width: 87%;}
 }
 
-@media (max-width: 338px) {
+@media screen and (max-width: 338px) {
 .navbar-logo {width: 90%;}
 }
 
-@media (max-width: 330px) {
+@media screen and (max-width: 330px) {
 .head-p {font-size: 12px;}
 }
 
-@media (max-width: 328px) {
+@media screen and (max-width: 328px) {
 .navbar-logo {width: 95%;}
 }
 
-@media (max-width: 304px) {
+@media screen and (max-width: 304px) {
 .navbar-logo {width: 100%;}
 }
 
