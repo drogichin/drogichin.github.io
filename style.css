@@ -216,7 +216,6 @@ footer {
 
 @media screen and (max-width: 9000px) {
   .menu-main {
-    float: right;
     margin-top: 0.4%;
   }
   .section-div {
